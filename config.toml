@@ -1,0 +1,30 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "CSUN CIT480 Example Site"
+
+theme = "hugo-coder-1.0"
+
+[params] # theme parameters
+    author = "Andrew Hamilton" # Author's name.
+    info = "Lecturer and Site Reliability Engineer" # Author's job title or info.
+    description = "Example site for CSUN CIT480" # Site description.
+    keywords = "blog,developer,personal" # Site keywords.
+    avatarurl = "images/avatar.jpg" # Contain the path of the optionnal avatar in the static folder.
+
+    footercontent = "Hopefully you'll learn something awesome" # Add footer content
+
+    # Whether you want to hide copyright and credits in the footer.
+    hideCredits = false
+    hideCopyright = false
+
+    # to switch bewteen LTR and RTL layout
+    rtl = false
+
+    # Custom CSS
+    custom_css = []
+
+# Menu links
+[[menu.main]]
+    name = "Blog"
+    weight = 1
+    url  = "/posts/"
